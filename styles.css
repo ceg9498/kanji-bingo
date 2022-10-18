@@ -24,6 +24,67 @@ body {
 }
 #options {
  position: absolute;
- top: 10px;
- left: 10px;
+ /* top: 10px;
+ left: 10px; */
 }
+
+.nav{
+    background-color: #222;
+    padding: 30px;
+    height: 50px;
+    width: 100%;
+    padding-top:10px ;
+}
+
+.menu{
+    margin-top: 40px;
+}
+#character-set{
+    cursor: pointer;
+    padding: 4px 20px;
+    outline: none;
+    margin-left: 20px;
+    background:#fff ;
+    border-radius: 4px;
+}
+
+button{
+    position: relative;
+    font-size: 1rem;
+    border: none; 
+    background: #222;
+    color: rgb(190, 186, 186);  
+}
+
+.btn-new{
+    margin: 0 20px;
+    margin-left: 20px;
+}
+
+
+button:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0%;
+    height: 3px;
+    background-color: #ff3c78;
+    transition: 0.3s;
+    
+
+}
+button:hover{
+    color: #fffcfc;
+}
+button:hover:after{
+    width: 100%;
+    
+}
+
+#refresh{
+    margin: 0 20px; 
+}
+
+
+
